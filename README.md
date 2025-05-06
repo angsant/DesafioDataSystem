@@ -18,7 +18,7 @@ A aplicação oferece uma API RESTful conectada a um banco de dados relacional e
 - SQL Server 2019+
 - Entity Framework Core
 - Visual Studio 2022 Community
-- Npm
+- Node.js / npm / yarn
 
 
 ---
@@ -29,7 +29,7 @@ A aplicação oferece uma API RESTful conectada a um banco de dados relacional e
 
 - Visual Studio 2022 Community com a carga de trabalho:
   - **Desenvolvimento ASP.NET e web**
-- Npm
+- Node.js 18+ [Instalar](https://nodejs.org/)
 - .NET 6 SDK ou superior [Instalar](https://dotnet.microsoft.com/download)
 - SQL Server (local)
 
