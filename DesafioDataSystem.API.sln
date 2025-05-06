@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{02EA68
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioDataSystem.Exceptions", "DesafioDataSystem.Exceptions\DesafioDataSystem.Exceptions.csproj", "{0B885564-D2C0-4573-ADFF-E07891DAC569}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{9471F287-5C2C-45B1-8E40-A7633DBC6E08}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend2", "Frontend2", "{9471F287-5C2C-45B1-8E40-A7633DBC6E08}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "frontend2", "..\Frontend2\frontend2\frontend2.esproj", "{C9DCFBA1-3A65-25C5-61F5-3BAEDF8FD690}"
 EndProject
