@@ -32,7 +32,6 @@ A aplicação oferece uma API RESTful conectada a um banco de dados relacional e
 - Npm
 - .NET 6 SDK ou superior [Instalar](https://dotnet.microsoft.com/download)
 - SQL Server (local)
-- Yarn (opcional) [Instalar](https://classic.yarnpkg.com/)
 
 ---
 
