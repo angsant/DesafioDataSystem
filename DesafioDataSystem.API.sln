@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioDataSystem.API", "DesafioDataSystem.API\DesafioDataSystem.API.csproj", "{8DD1F5D5-24F3-4E69-B46E-00D0B5863C9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioDataSystem.Domain", "DesafioDataSystem.Domain\DesafioDataSystem.Domain.csproj", "{38F5CC0F-F2D2-4432-A201-55DAE5051418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioDataSystem.Application", "DesafioDataSystem.Application\DesafioDataSystem.Application.csproj", "{CBD78FAC-644A-442D-8B33-A841B0474C98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioDataSystem.Infrasturcture", "DesafioDataSystem.Infrasturcture\DesafioDataSystem.Infrasturcture.csproj", "{04A5D4A8-751B-469C-BBF9-9A60081EF69A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioDataSystem.Exceptions", "DesafioDataSystem.Exceptions\DesafioDataSystem.Exceptions.csproj", "{0B885564-D2C0-4573-ADFF-E07891DAC569}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DD1F5D5-24F3-4E69-B46E-00D0B5863C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD1F5D5-24F3-4E69-B46E-00D0B5863C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD1F5D5-24F3-4E69-B46E-00D0B5863C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD1F5D5-24F3-4E69-B46E-00D0B5863C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38F5CC0F-F2D2-4432-A201-55DAE5051418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F5CC0F-F2D2-4432-A201-55DAE5051418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F5CC0F-F2D2-4432-A201-55DAE5051418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F5CC0F-F2D2-4432-A201-55DAE5051418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBD78FAC-644A-442D-8B33-A841B0474C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBD78FAC-644A-442D-8B33-A841B0474C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBD78FAC-644A-442D-8B33-A841B0474C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBD78FAC-644A-442D-8B33-A841B0474C98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04A5D4A8-751B-469C-BBF9-9A60081EF69A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A5D4A8-751B-469C-BBF9-9A60081EF69A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A5D4A8-751B-469C-BBF9-9A60081EF69A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A5D4A8-751B-469C-BBF9-9A60081EF69A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B885564-D2C0-4573-ADFF-E07891DAC569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B885564-D2C0-4573-ADFF-E07891DAC569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B885564-D2C0-4573-ADFF-E07891DAC569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B885564-D2C0-4573-ADFF-E07891DAC569}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0B885564-D2C0-4573-ADFF-E07891DAC569} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {141553A9-1F7E-4030-9B9F-2D9835216253}
+	EndGlobalSection
+EndGlobal
