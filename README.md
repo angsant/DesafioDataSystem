@@ -1,4 +1,4 @@
-﻿# Aplicação Fullstack com ASP.NET Core Web API, React.js (Vite) e SQL Server para o desafio da DataSystem
+﻿# Aplicação para o Desafio da DataSystem
 
 Este projeto é uma aplicação fullstack que utiliza:
 
