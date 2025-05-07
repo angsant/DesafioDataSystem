@@ -1,4 +1,4 @@
-﻿# Aplicação Fullstack com ASP.NET Core Web API, React.js (Vite) e SQL Server
+﻿# Aplicação Fullstack com ASP.NET Core Web API, React.js (Vite) e SQL Server para o desafio da DataSystem
 
 Este projeto é uma aplicação fullstack que utiliza:
 
@@ -39,6 +39,50 @@ A aplicação oferece uma API RESTful conectada a um banco de dados relacional e
 
 ### 1. Clonar o Repositório
 
-```bash
-git clone 
-cd seu-projeto
+bash
+git clone git@github.com:angsant/DesafioDataSystem.git
+cd DesafioDataSystem
+
+### 2. Banco de dados
+
+- String de conexão com banco de dados:
+
+  - Data Source=DESKTOP-JVDLEU4;Initial Catalog=gerenciadortarefas;User ID=sa;Trusted_Connection=True;Encrypt=True;TrustServerCertificate=True;
+
+- Sistema de Gerenciamento: SQL Server
+
+- ORM: Entity Framework Core
+
+- Configuração: appsettings.Development.json
+
+- Context já possue migration
+
+- Comandos para migration:
+
+  - add-migration Init -Context DesafioDataSystemDbContext
+
+  - update-database
+
+### 3. Inicializar aplicação no Visual Studio:
+
+  - Abrir a solução DesafioDataSystem.API.sln
+  
+  - Nas configurações de projeto, configurar para executar os projetos frontend2 e DesafioDataSystem.API
+  
+  - API executada em https
+  
+  - Frontend executado no navegador Edge
+  
+  - Clicar na botão Run
+
+### 4. Notas finais
+
+- Habilite o CORS no backend (Program.cs) para permitir requisições do frontend
+
+- Certifique-se de que Visual Studio e SQL Server estejam rodando como Administrador, se necessário
+
+- A porta de execução do frontend é 59648
+
+- A porta de execução da API é 7122
+
+  
